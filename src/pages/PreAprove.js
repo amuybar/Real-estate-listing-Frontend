@@ -12,7 +12,7 @@ const PreApprovalPage = () => {
   const [income, setIncome] = useState('');
   const [employmentStatus, setEmploymentStatus] = useState('employed'); 
   
-  const [employmentStatusOptions, setEmploymentStatusOptions] = useState([
+  const [employmentStatusOptions] = useState([
     'employed',
     'self-employed',
     'unemployed',
