@@ -1,0 +1,18 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.searchIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}

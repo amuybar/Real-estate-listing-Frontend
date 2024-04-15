@@ -1,0 +1,59 @@
+.listings-container {
+  width: 100%; 
+  overflow-x: scroll; 
+  white-space: nowrap; 
+}
+
+.listings {
+  display: flex; 
+  flex-wrap: nowrap; 
+  margin: 1px; 
+  padding: 0; 
+  list-style: none; 
+}
+
+
+.listing-item {
+  position: relative;
+  margin: 10px;
+  border: none;
+}
+
+.listing-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  border: none;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.location {
+  color: #fff;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.viewButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.viewButton:hover {
+  background-color: #0056b3;
+}

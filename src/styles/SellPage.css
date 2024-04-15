@@ -1,0 +1,59 @@
+.sell-property {
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100vh;
+  margin-top: 100px;
+ 
+  
+}
+
+.sell-property h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sell-property form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sell-property label {
+  margin-bottom: 5px;
+}
+
+.sell-property input[type="text"],
+.sell-property input[type="number"],
+.sell-property textarea,
+.sell-property input[type="file"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sell-property button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sell-property button:hover {
+  background-color: #0056b3;
+}
+
+.sell-property .error {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+.sell-property .success {
+  color: #28a745;
+  margin-top: 10px;
+}

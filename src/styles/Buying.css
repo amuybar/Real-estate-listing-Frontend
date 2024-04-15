@@ -1,0 +1,41 @@
+.buying-page {
+  padding: 20px;
+}
+
+.property-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.property-card h2 {
+  margin-bottom: 10px;
+}
+
+.property-card p {
+  margin-bottom: 5px;
+}
+
+.property-card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.property-card button:hover {
+  background-color: #0056b3;
+}
+
+.property-card .error {
+  color: #dc3545;
+}
+
+.property-card .success {
+  color: #28a745;
+}

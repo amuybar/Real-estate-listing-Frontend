@@ -1,0 +1,80 @@
+.rent-page {
+  margin-top: 20%;
+  padding: 20px;
+}
+
+.house-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.house-card h2 {
+  margin-bottom: 10px;
+}
+
+.house-card p {
+  margin-bottom: 5px;
+}
+
+.house-card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.house-card button:hover {
+  background-color: #0056b3;
+}
+
+.house-card .error {
+  color: #dc3545;
+}
+
+.house-card .success {
+  color: #28a745;
+}
+
+.house-posting-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.house-posting-form h2 {
+  margin-bottom: 10px;
+}
+
+.house-posting-form label {
+  margin-bottom: 5px;
+}
+
+.house-posting-form input,
+.house-posting-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.house-posting-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.house-posting-form button:hover {
+  background-color: #0056b3;
+}

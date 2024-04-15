@@ -1,0 +1,150 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  background-color:#ffffff;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 10; 
+  
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navbar__logo img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 1rem;
+  
+}
+
+.menu a {
+  color:#000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-align: center;
+
+}
+.menu a:hover{
+  background-color: #828486;
+  color: #ffffff;
+
+}
+.menuIcon {
+  display: none;
+  
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+.auth{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navbar__links {
+    display: flex;
+    align-items: center;
+    color: lightblue;
+  }
+
+  .menuIcon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #000;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    height: 100vh;
+    max-height: 0;
+    overflow: hidden;
+    align-items: start;
+    
+  }
+
+  .menu.show {
+    margin-top: 0;
+    max-height: 300px;
+  }
+
+  .bar.open:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar.open:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+.auth{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+.register{
+  border: none;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.login{
+  border: 1px solid#3f93ee;;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-left: 10px;
+  
+}
+
+}
