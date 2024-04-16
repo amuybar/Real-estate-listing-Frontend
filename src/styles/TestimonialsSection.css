@@ -1,0 +1,21 @@
+.testimonials-section {
+  text-align: center;
+
+  
+}
+
+.testimonial {
+  padding: 20px;
+  width: 70%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  border: 1px solid #ebe6e6;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+
+.testimonial p {
+  margin-top: 10px;
+  color: rgb(0, 93, 124);
+}

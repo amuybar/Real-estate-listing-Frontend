@@ -1,0 +1,42 @@
+.newest-deal-section {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.newest-deal {
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+.newest-deal:hover {
+  box-shadow:  6px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.newest-deal img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.deal-details {
+  margin-top: 10px;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+}

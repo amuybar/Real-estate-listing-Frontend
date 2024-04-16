@@ -1,81 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 body{
   margin: 0;
-  margin-top: 70px;
-  min-width: 100%;
+  padding: 0;
+  font-family: sans-serif;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  max-width: 100%;
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
-  
-  background-color: #ffffff;
 }
 
-.container{
-  padding: 10px;
-}
-.heading-more{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
- .listing{
- border: none;
- background-color: #ffffff;
- border-radius: 8px;
- padding: 10px;
- color: black;
- font-weight: bold;
- cursor: pointer;
+
+section {
+  padding: 50px 0;
 }
 
-h2{
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-weight: bold;
-}
-p{
-  color: #000000;
-  font-size: 15px;
-}
-.searchPage {
-  padding: 20px;
-  height: 100%;
-  margin-top: 20%;
+h1, h2, h3 {
+  margin: 0 0 15px;
 }
 
-.searchPage h1 {
-  text-align: center;
-  margin-bottom: 20px;
+p {
+  margin: 0 0 10px;
 }
-.auth-home{
-  padding: 20px;
-  height: 10%;
-  margin: 2% auto;
-  justify-content: space-between;
-  align-items: center;
+
+a {
+  color: #333;
+  text-decoration: none;
 }
-.auth-home .register{
-  width: 40%;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+
+a:hover {
+  text-decoration: underline;
 }
-.auth-home .login{
-  width: 40%;
-  margin-left: 10px;
-  padding: 10px;
-  background-color: #c1c2c2;
-  color: #007bff;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+
+
